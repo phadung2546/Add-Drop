@@ -27,7 +27,7 @@ const router = createRouter({
       name: "adddrop",
       component: AdddropView,
     },
-    
+
     {
       path: "/about",
       name: "about",

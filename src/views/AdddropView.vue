@@ -139,8 +139,6 @@ template {
 }
 .h1 {
   background-color: black;
-
-
 }
 .dd {
   background-color: rgb(139, 182, 209);

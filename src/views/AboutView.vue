@@ -1,8 +1,6 @@
 <template>
   <div class="bg">
-    <div class="container">
-      
-    </div>
+    <div class="container"></div>
 
     <v-row align="center" justify="center">
       <v-col cols="12">
@@ -13,7 +11,9 @@
             height="1500"
             max-width="700"
             v-bind="props"
-          > <br><center><h2>ผลการลงทะเบียนทั้งหมด</h2></center>
+          >
+            <br />
+            <center><h2>ผลการลงทะเบียนทั้งหมด</h2></center>
             <v-card-text class="my-4 text-center text-h6">
               <div v-for="(value, index) in data" :key="index" class="ddd">
                 <v-card class="mx-auto" max-width="400">
